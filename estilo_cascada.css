@@ -1,0 +1,582 @@
+header, section, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"Trebuchet MS", Arial, Helvetica;
+}
+
+header {
+	height: 300px;
+	background-color: #f7e7ce;
+}
+
+#tarea {
+	height: 450px;
+	background-color: #f7e7ce;
+}
+
+#historia {
+	height: 1150px;
+	margin-top: -23px;
+	background-color: #f7e7ce;
+}
+
+footer {
+	height: 100px;
+	background-color: #ba8a63;
+	font-size: 14px;
+	text-align: center;
+	margin-top: -15px;
+	color: #3d3a3a;
+}
+
+#fondo_banner {
+	height: 300px;
+	background-image: url(imagenes/banner.jpg);
+}
+
+#contacto, #redes {
+	width: 450px;
+	height: 5px;	
+	margin: 10px;
+	float: left;
+	background-color: #f7e7ce;
+	padding-bottom: 30px;
+	font-size: 15px;
+}
+
+#contacto {
+	margin-left: 20px;
+}
+
+#copyright {
+	width: 600px;
+	height: 32px;
+	margin: auto;
+	clear: both;
+	background-color: #f7e7ce;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+#gatito, #texto {
+	width: 450px;
+	height: 300px;	
+	margin: 10px;
+	margin-top: 80px;
+	float: left;
+}
+
+#gatito {
+	margin-left: 20px;
+	background-image: url(imagenes/bebe_gris.jpg);
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 20px;
+}
+
+#texto {
+	background-color: #f7e7ce;
+	text-align: justify;
+	color: #686464;
+}
+
+#presentacion {
+	width: 900px;
+	height: 650px;
+	margin: auto;
+	background-color: #f7e7ce;
+	font-family: "DM Sans";
+	font-size: 20px;
+	padding-top: 50px;
+	text-align: justify;
+	color: #686464;
+}
+
+#adoptados, #consejos, #colaboraciones {
+	width: 300px;
+	height: 380px;
+	float: left;
+	margin: 5px;
+	margin-top: 16px;
+	background-color: #ba8a63;
+	text-align: center;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 20px;
+}
+
+#consejos {
+	margin-left: 20px;
+	color: #f7e7ce;
+	font-family: "DM Sans";
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+.utiles {
+	font-size: 28px;
+}
+
+.carrousel1, .carrousel3 {
+	width: 45%;
+	float: left;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-left: 9px;
+}	
+
+.carrousel2, .carrousel4 {
+	width: 45%;
+	float: right;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-top: 15px;
+}	
+
+.carrousel3, .carrousel4 {
+	margin-top: 21px;
+}	
+
+#colaboraciones {
+	background-image: url(imagenes/ayudanos.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom, center;
+	font-size: 17px;
+	color: #f7e7ce;
+	line-height: 1.1em;
+}
+
+#contenido-consejos {
+	width: 100%;
+}
+
+#img_consejos img {
+	width: 450px;
+	float: right;
+	padding-top: 180px;
+	padding-right: 15px;
+}
+
+#texto_consejos {
+	width: 480px;
+	float: left;
+	box-sizing: border-box;
+	font-family: "DM Sans";
+	font-size: 17px;
+	text-align: justify;
+	color: #686464;
+	padding-left: 15px;
+	margin-bottom: 200px;
+}
+
+#caja_consejos {
+	height: 760px;
+	margin-top: -23px;
+	background-color: #f7e7ce;
+	padding-top: 10px;
+}
+
+#menu_consejos ul li a {
+	display: inline-block;
+	background-color: #f7e7ce;
+	width: 155px;
+	height: 21px;
+	text-align: center;
+	margin-left: 9px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	color: #494646;
+	font-size: 15px;
+}	
+
+#menu_consejos li {
+	padding-left: 54px;
+	padding-top: 5px;
+}
+
+#menu_consejos a:hover {
+	padding: 5px;
+}
+
+#registro {
+	height: 550px;
+	color: yellow;
+	text-shadow: 1px 1px 1px black;
+	font-family: "DM Sans";
+	background-image: url(imagenes/fondoadop.jpg);
+	padding-top: 5px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.destacar {
+	font-size: 40px;
+	text-shadow: 3px 3px 3px black;
+	color: yellow;
+}
+
+.boton {
+	width: 58.5%;
+}
+
+textarea {
+	width: 58%;
+	font-family: "Arial";
+	font-size: 13px;
+}
+
+h5 {
+	font-family: "DM Sans";
+	font-size: 35px;
+}
+
+a {
+	color: #f7e7ce;
+	text-decoration: none;
+}
+
+ul {
+	padding: 5px;
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	background-color: #8a5833;
+	width: 148px;
+	height: 25px;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: 9px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer {
+	width: 580px;
+}
+
+footer {
+height: 105px;
+}
+
+#contacto, #redes {
+	width: 250px;
+	margin: 15px;
+	float: left;
+	margin-left: 21px;
+	font-size: 13.5px;
+}
+
+#copyright {
+	width: 510px;
+	height: 30px;
+	font-size: 13px;
+}	
+
+#gatito, #texto {
+	width: 260px;
+	font-size: 13px;
+}
+
+#gatito {
+	background-image: url(imagenes/bebe_gris_chico.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#fondo_banner {
+	height: 200px;
+	background-image: url(imagenes/banner_chico.jpg);
+}
+
+#presentacion {
+	width: 550px;
+	font-size: 15px;
+	margin-top: -90px;
+}
+
+#adoptados {
+	width: 40%;
+	height: 380px;
+	margin-top: -90px;
+}
+
+.carrousel3, .carrousel4 {
+	margin-top: 35px;
+}	
+
+.carrousel1, .carrousel2 {
+	margin-top: 40px;
+}
+
+#consejos {
+	width: 40%;
+	float: right;
+	margin-right: 40px;
+	margin-top: -555px;
+}
+
+.utiles {
+	font-size: 20px;
+}
+
+#menu_consejos ul li a {
+	display: inline-block;
+	background-color: #f7e7ce;
+	width: 155px;
+	height: 21px;
+	text-align: center;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	color: #494646;
+	font-size: 15px;
+}	
+
+#menu_consejos li {
+	padding-left: 54px;
+	padding-top: 5px;
+}
+
+#menu_consejos a:hover {
+	padding: 5px;
+}
+
+#colaboraciones {
+	width: 550px;
+	height: 150px;
+	margin-left: 15px;
+	font-size: 14px;
+	line-height: 0.7em;
+	background-position: right;
+	text-indent: -160px;
+}
+
+#adoptados {
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+#historia {
+	height: 1200px;
+}
+
+li {
+	padding: 5px;
+}
+
+li a {
+	margin-left: 24px;
+}
+
+#img_consejos img {
+	width: 80%;
+	padding-top: 70px;
+	float: left: 50px;
+	padding-right: 60px;
+}
+
+#texto_consejos {
+	width: 480px;
+	float: left;
+	padding-left: 100px;
+	box-sizing: border-box;
+	font-family: "DM Sans";
+	font-size: 15px;
+	text-align: justify;
+	color: #686464;
+}
+
+#caja_consejos {
+	height: 1000px;
+}
+
+#menu_consejos ul li a {
+	display: inline-block;
+	background-color: #f7e7ce;
+	width: 155px;
+	height: 21px;
+	text-align: center;
+	margin-left: 9px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	color: #494646;
+	font-size: 15px;
+}	
+
+#menu_consejos li {
+	padding-left: 24px;
+	padding-top: 4px;
+}
+
+#menu_consejos a:hover {
+	padding: 5px;
+}
+
+h5 {
+	font-family: "DM Sans";
+	font-size: 20px;
+}
+
+}
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 320px;
+}
+
+header {
+	position: relative;
+}
+
+footer {
+	height: 150px;
+	padding-bottom: 20px;
+}
+
+#contacto, #redes {
+	width: 290px;
+	margin-left: 16px;
+}
+
+#copyright {
+	width: 290px;
+	height: 50px;
+}
+
+#redes {
+	margin-top: auto;
+}
+
+#gatito, #texto, #adoptados, #consejos, #colaboraciones {
+	width: 240px;
+	height: 306px;
+	margin-left: 40px;
+}
+
+#colaboraciones {
+	font-size: 13px;
+	line-height: 0.7em;
+}
+
+#gatito {	
+	background-image: url(imagenes/bebe_gris_chico.jpg);	
+}
+
+#texto {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 13px;
+}
+
+#fondo_banner {
+	width: 100%;
+	height: 125px;
+	background-image: url(imagenes/banner_mini.jpg);
+	background-repeat: no-repeat;
+}
+
+#presentacion {
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#historia {
+	height: 2050px;
+	width: 300px;
+	margin: auto;
+	padding-right: 20px;
+}
+
+ul {
+	padding: 75px;
+	margin-top: -120px;
+}
+
+li {
+	padding: 5px;
+}
+
+li a {
+	display: block;	
+	width: 120px;
+	height: 10px;	
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 12px;
+	margin-bottom: -25px;
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+#img_consejos img {
+	width: 80%;
+	padding-top: 30px;
+	float: left;
+	padding-left: 30px;
+}
+
+#texto_consejos {
+	width: 310px;
+	padding-left: 14px;
+	font-size: 15px;
+}
+
+#caja_consejos {
+	height: 1100px;
+	margin-top: -200px;
+}
+
+#menu_consejos ul li a {
+	display: inline-block;
+	background-color: #f7e7ce;
+	width: 155px;
+	height: 9px;
+	text-align: center;
+	margin-left: 9px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	color: #494646;
+	font-size: 14px;
+}	
+
+#menu_consejos li {
+	height: 20px;
+	padding-top: 12px;
+	margin-left: -95px;
+}
+
+#menu_consejos a: hover {
+	padding: 5px;
+}
+
+#consejos {
+	font-size: 17px;
+}
+
+.utiles {
+	font-size: 18px;
+}
+
+h5 {
+	font-family: "DM Sans";
+	font-size: 20px;
+}
+
+.textarea, .boton {
+	width: 90%;
+}
+
+}
